@@ -1,0 +1,210 @@
+#header {
+    color: black;
+    text-align: center;
+    font-family: georgia;
+  }
+  #header-img{
+    width: 700px;
+   margin: 0 auto;
+    float: left;
+   
+  }
+  #nav-wrapper{
+   width: 100%;
+    height: 10%;
+   display: inline-block;
+     
+  
+  }
+  .About {
+    text-align: center;
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    @media (max-width: 650px) {
+      margin: 0 auto;
+    }
+  }
+  #nav-bar {
+   
+    text-align: center;
+    background-color: black;
+    }
+  @media only screen and (max-width: 800px) {
+    #nav-bar {
+      background-color: Purple;
+    }
+  }
+  
+  .nav-bar{
+  
+    text-align: center;
+    display: inline-block;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+   
+  }
+  #form {
+    align: center;
+    text-align: center;
+    margin:0 auto;
+    padding: 5px;
+  }
+  .nav-link {
+    color: purple;
+    background-color: black;
+    font-family: georgia;
+  }
+  
+   body{
+    background-image: url("https://images.freeimages.com/images/large-previews/30a/eye-1-1438840.jpg");
+    background-position: 100px 5px;  
+  }
+    font-family: georgia;
+  }
+  
+  
+  ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li  {
+    font-size: 20px;
+    display: vertical;
+    padding-right: 0px;
+    text-align: center;
+  }
+  h1 {
+  
+    margin: 0;
+    padding: 0;
+    color: #e84353;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  #make-up1 { 
+   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+  }
+  p{
+    font-size: 40px;
+    color: #e84353;
+    text-align: center;
+  }
+  
+  #paragraph  {
+    font-size: 20px;
+   color: #e84353;
+    align: center;
+    width: 500px;
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 100px;
+  }
+  #paragraph2  {
+    font-size: 20px;
+   color: #e84353;
+    align: center;
+    width: 500px;
+    float: right;
+    padding: 1px 2px 200px 100px;
+  }
+  
+  #list  {
+    font-size: 20px;
+   color: #e84353;
+    text-align: vertical;
+    align: center;
+    width: 300px;
+   margin: 80px 375px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+  }
+  
+  
+  h4{ color: #343631;
+    text-align: center;
+    padding-right: 10px;
+    
+  }
+  form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  
+  }
+  
+  .name {
+    
+    margin: 0 auto ;
+    background-color: #f1f1f1;
+  }
+  #email{
+    width: 50%;
+    padding: 11px;
+    
+    margin:0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 11px;
+    margin:0 auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  h3{
+    color: black;
+    font-size: 25px;
+    padding-right: 100px;
+  }
+  
+  footer{
+    color: purple;
+  }
